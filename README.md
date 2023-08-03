@@ -1,2 +1,2 @@
-# Segment-Any-Nodule
-This is the offcial implementation of Segment Any Nodule (SAN) model for IEEE BIBM 2023.
+# ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation
+This is the offcial implementation of ConvNet for IEEE BIBM 2023.
