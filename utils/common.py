@@ -13,38 +13,16 @@ from torch.optim import SGD, Adam, AdamW, Optimizer
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from monai.optimizers.lr_scheduler import WarmupCosineSchedule
 
-from nets import UNETR, SwinUNETR, UXNET, SAN, UPerNeXt, UNETR_PP
+from nets import ConvUNET
 
 
 def get_seg_model(args: ArgumentParser, pretrained: bool = True):
     ''' get segmentation model '''
     seg_model_name = args.seg_model.lower()
-    if seg_model_name == "uxnet":
-        seg_model = UXNET(in_channels=args.in_channels,
-                          out_channels=args.out_channels)
-    elif seg_model_name == "san":
-        seg_model = SAN(in_channels=args.in_channels,
-                        out_channels=args.out_channels,
-                        deep_sup=False)
-    elif seg_model_name == "upernextv1":
-        seg_model = UPerNeXt(in_channels=args.in_channels,
+    if seg_model_name == "convunet":
+        seg_model = ConvUNET(in_channels=args.in_channels,
                              out_channels=args.out_channels,
-                             use_grn=False)
-    elif seg_model_name == "upernextv2":
-        seg_model = UPerNeXt(in_channels=args.in_channels,
-                             out_channels=args.out_channels,
-                             use_grn=True)
-    elif seg_model_name == "swinunetr":
-        seg_model = SwinUNETR(in_channels=args.in_channels,
-                              out_channels=args.out_channels)
-    elif seg_model_name == "unetr++":
-        seg_model = UNETR_PP(in_channels=args.in_channels,
-                             out_channels=args.out_channels,
-                             img_size=(args.roi_z, args.roi_x, args.roi_y))
-    elif seg_model_name == "unetr":
-        seg_model = UNETR(in_channels=args.in_channels,
-                          out_channels=args.out_channels,
-                          img_size=(args.roi_z, args.roi_x, args.roi_y))
+                             deep_sup=False)
     else:
         raise ValueError(
             f"Segmentation Model `{args.seg_model}` is not supported!"
