@@ -13,8 +13,8 @@ We propose a lightweight depthwise separable convolutional network named ConvUNE
 Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based models (e.g., 3D UX-Net), our model has the advantages of fewer parameters, faster inference speed, and higher accuracy. 
 
 
-# Segmentation Results
-## Performance on LUNA-16 Dataset
+## Segmentation Results
+### Performance on LUNA-16 Dataset
 |             Models             | Year  | Params(M) | GFLOPs |  DSC(\%)  |  SEN(\%)  |  PPV(\%)  |
 | :----------------------------: | :---: | :-------: | :----: | :-------: | :-------: | :-------: |
 |   UNETR (Hatamizadeh et al.)   | 2021  |   92.8    |  82.6  |   86.32   |   87.41   |   88.08   |
@@ -25,7 +25,7 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 |     3D UX-Net (Lee et al.)     | 2023  |   53.0    | 639.4  |   88.55   |   90.10   |   88.93   |
 |      **ConvUNET (Ours)**       | 2023  |   32.6    | 265.1  | **88.90** | **90.13** | **89.49** |
 
-## Performance on LNDb-19 Dataset
+### Performance on LNDb-19 Dataset
 |             Models             | Year  | Params(M) | GFLOPs |  DSC(\%)  |  SEN(\%)  |  PPV(\%)  |
 | :----------------------------: | :---: | :-------: | :----: | :-------: | :-------: | :-------: |
 |   UNETR (Hatamizadeh et al.)   | 2021  |   92.8    |  82.6  |   80.42   |   82.04   |   85.13   |
@@ -37,11 +37,11 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 |      **ConvUNET (Ours)**       | 2023  |   32.6    | 265.1  | **84.16** |   85.15   | **87.29** |
 
 
-# Acknowledgement
+## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
 
 
-# Citation 
+## Citation 
 If you find this repository helpful, please consider citing:
 ```
 @article{tang2023convunet,
