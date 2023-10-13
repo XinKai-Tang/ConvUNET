@@ -7,16 +7,16 @@ from argparse import ArgumentParser
 from torch import cuda, device as Device
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
-setproctitle.setproctitle("txk-NoduleSeg")
+setproctitle.setproctitle("ConvUNET")
 
-parser = ArgumentParser(description="Image Segmentation of Lung Nodules")
-parser.add_argument("--seg_model", type=str, default="SwinUNETR",
+parser = ArgumentParser(description="3D Medical Image Segmentation")
+parser.add_argument("--seg_model", type=str, default="ConvUNET",
                     help="name of the segmentation model")
 parser.add_argument("--device", type=Device, help="runtime device",
                     default=Device("cuda" if cuda.is_available() else "cpu"))
 
 ############################ save path ############################
-parser.add_argument("--data_root", type=str, default="../DATASETS/LUNA-Seg",
+parser.add_argument("--data_root", type=str, default="dataset",
                     help="root of the dataset")
 parser.add_argument("--json_name", type=str, default="dataset.json",
                     help="name of json file in cross validation")
@@ -25,9 +25,9 @@ parser.add_argument("--num_folds", type=int, default=5,
 parser.add_argument("--fold", type=int, default=0,
                     help="fold of cross validation")
 
-parser.add_argument("--model_save_dir", type=str, default="../models/LUNA-16",
+parser.add_argument("--model_save_dir", type=str, default="models",
                     help="save path of trained models")
-parser.add_argument("--trained_model", type=str, default="best_model_f1.pth",
+parser.add_argument("--trained_model", type=str, default="best_model.pth",
                     help="filename of pretrained model")
 parser.add_argument("--log_save_dir", type=str, default="logs",
                     help="save path of runtime logs")
