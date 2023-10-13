@@ -1,0 +1,6 @@
+monai==0.9.0
+SimpleITK
+numpy
+pytorch
+setproctitle
+pandas
