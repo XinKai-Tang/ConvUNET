@@ -7,7 +7,7 @@ Xinkai Tang, Feng Liu, Ruoshan Kong, Fei Luo, et al.
 School of Computer Science, Wuhan University
 
 ![](figures/ConvUNET.png)
-![](figures/BasicBlock.png)
+![](figures/BasicBlocks.png)
 
 We propose a lightweight depthwise separable convolutional network named ConvUNET, which consists of a Transformer-like encoder and a ConvNet-based decoder.
 Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based models (e.g., 3D UX-Net), our model has the advantages of fewer parameters, faster inference speed, and higher accuracy. 
