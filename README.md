@@ -1,4 +1,4 @@
-# ConvUNET (Tang *et al.*, IEEE BIBM 2023)
+# ConvUNET (IEEE BIBM 2023)
 
 Official Pytorch implementation of ConvUNET, from the following paper:
 
