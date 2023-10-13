@@ -48,7 +48,7 @@ This work is supported by National Natural Science Foundation of China (NSFC No.
 
 
 ## Citation 
-If you find this repository helpful, please consider citing:
+If you find this repository helpful, please consider citing after this paper published on BIBM:
 ```
 @article{tang2023convunet,
   title=ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation,
