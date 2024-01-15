@@ -52,9 +52,11 @@ This work is supported by National Natural Science Foundation of China (NSFC No.
 ## Citation 
 If you find this repository helpful, please consider citing (after the paper published on BIBM):
 ```
-@article{tang2023convunet,
-  title=ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation,
-  author=Tang, Xinkai and Liu, Feng and Kong, Ruoshan and Luo, Fei and Huang, Wencai and Zou, Jiani,
-  year=2023
+@inproceedings{tang2023convunet,
+  title={ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation},
+  author={Tang, Xinkai and Liu, Feng and Kong, Ruoshan and Luo, Fei and Huang, Wencai and Zou, Jiani},
+  booktitle={2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  year={2023},
+  organization={IEEE}
 }
 ```
