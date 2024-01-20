@@ -8,7 +8,7 @@ Official Pytorch implementation of ConvUNET, from the following paper:
 
 [Xinkai Tang](https://xinkai-tang.github.io), Feng Liu, Ruoshan Kong, Fei Luo, *et al.*
 
-School of Computer Science, Wuhan University
+School of Computer Science, Wuhan University, China
 
 ---
 
@@ -50,7 +50,7 @@ This work is supported by National Natural Science Foundation of China (NSFC No.
 
 
 ## Citation 
-If you find this repository helpful, please consider citing (after the paper published on BIBM):
+If you find this repository helpful, please consider citing:
 ```
 @INPROCEEDINGS{10385928,
   author={Tang, Xinkai and Liu, Feng and Kong, Ruoshan and Luo, Fei and Huang, Wencai and Zou, Jiani},
