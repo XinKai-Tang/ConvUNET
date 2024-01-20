@@ -4,7 +4,7 @@ Official Pytorch implementation of ConvUNET, from the following paper:
 
 **ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation.**
 
-[BIBM 2023](https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/) ([Regular Paper](https://ieeexplore.ieee.org/document/10385928), Accepted at Oct. 13 2023)
+[BIBM 2023](https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/) (Accepted at 13 Oct. 2023, [Regular Paper](https://ieeexplore.ieee.org/document/10385928))
 
 [Xinkai Tang](https://xinkai-tang.github.io), Feng Liu, Ruoshan Kong, Fei Luo, *et al.*
 
