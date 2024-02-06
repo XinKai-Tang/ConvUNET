@@ -12,6 +12,8 @@ School of Computer Science, Wuhan University, China
 
 ---
 
+## Introduction
+
 ![](figures/ConvUNET.png)
 
 We propose a lightweight depthwise separable convolutional network named ConvUNET, which consists of a Transformer-like encoder and a ConvNet-based decoder.
@@ -19,7 +21,6 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 
 ![](figures/BasicBlocks.png)
 
----
 
 ## Segmentation Results
 ### Performance on LUNA-16 Dataset
@@ -44,6 +45,7 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 |     3D UX-Net (Lee, 2023)     |   53.0    | 639.4  |   83.71   |   85.16   |   86.66   |
 |   **ConvUNET (Ours, 2023)**   |   32.6    | 265.1  | **84.16** |   85.15   | **87.29** |
 
+---
 
 ## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
