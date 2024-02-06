@@ -10,7 +10,6 @@ Official Pytorch implementation of ConvUNET, from the following paper:
 
 School of Computer Science, Wuhan University, China
 
----
 
 ## Introduction
 
@@ -45,7 +44,6 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 |     3D UX-Net (Lee, 2023)     |   53.0    | 639.4  |   83.71   |   85.16   |   86.66   |
 |   **ConvUNET (Ours, 2023)**   |   32.6    | 265.1  | **84.16** |   85.15   | **87.29** |
 
----
 
 ## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
