@@ -2,11 +2,11 @@
 
 Official Pytorch implementation of ConvUNET, from the following paper:
 
-**ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation.**
+**ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation**
 
 [BIBM 2023](https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/) (Accepted at 13 Oct. 2023, [Regular Paper](https://ieeexplore.ieee.org/document/10385928))
 
-[Xinkai Tang](https://xinkai-tang.github.io)<sup>1</sup>, Feng Liu<sup>1#</sup>, Ruoshan Kong<sup>1#</sup>, Fei Luo<sup>1</sup>, Wencai Huang<sup>2</sup>, Jiani Zou<sup>2#</sup>
+[Xinkai Tang](https://xinkai-tang.github.io)<sup>1</sup>, Feng Liu<sup>1#</sup>, Ruoshan Kong<sup>1#</sup>, Fei Luo<sup>1</sup>, Wencai Huang<sup>2</sup>, Jiani Zou<sup>2</sup>
 
 > <sup>1</sup> School of Computer Science, Wuhan University, China .  
 <sup>2</sup> Department of Radiology, General Hospital of Central Theater Command of the PLA, China .  
