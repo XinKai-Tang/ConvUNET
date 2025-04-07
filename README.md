@@ -6,10 +6,11 @@ Official Pytorch implementation of ConvUNET, from the following paper:
 
 [BIBM 2023](https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/) (Accepted at 13 Oct. 2023, [Regular Paper](https://ieeexplore.ieee.org/document/10385928))
 
-[Xinkai Tang](https://xinkai-tang.github.io), Feng Liu, Ruoshan Kong, Fei Luo, *et al.*
+[Xinkai Tang](https://xinkai-tang.github.io)<sup>1</sup>, Feng Liu<sup>1#</sup>, Ruoshan Kong<sup>1#</sup>, Fei Luo<sup>1</sup>, Wencai Huang<sup>2</sup>, Jiani Zou<sup>2#</sup>
 
-School of Computer Science, Wuhan University, China
-
+> <sup>1</sup> School of Computer Science, Wuhan University, China .  
+<sup>2</sup> Department of Radiology, General Hospital of Central Theater Command of the PLA, China .  
+<sup>#</sup> Kong and Liu are the corresponding authors.  
 
 ## Introduction
 
@@ -22,6 +23,8 @@ Compared with some Transformer-based models (e.g., SwinUNETR) and ConvNeXt-based
 
 
 ## Segmentation Results
+Comparison of segmentation methods in terms of Dice Similarity Coefficient (DSC), Sensitivity (SEN), and Positive Predictive Value (PPV) on the datasets LUNA-16 and LNDb-19. We perform 5-fold cross-validations on each dataset using these models, and the values in the table are obtained by averaging the experimental results of the 5-fold cross-validations, respectively.
+
 ### Performance on LUNA-16 Dataset
 |            Models             | Params(M) | GFLOPs |  DSC(\%)  |  SEN(\%)  |  PPV(\%)  |
 | :---------------------------: | :-------: | :----: | :-------: | :-------: | :-------: |
